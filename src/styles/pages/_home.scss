@@ -1,0 +1,49 @@
+.home{
+    display: grid;
+    grid-template-rows: 20% 1fr 20%;
+    .home-header{
+        background-color: $color-1;
+        text-align: center;
+        font-family: $font-1;
+        font-size: 2.7rem;
+        color: $color-2;
+        padding: 15px;
+        letter-spacing: 5px;
+        text-shadow: 0 0 4px $color-2;
+    }
+    .home-content{
+        background: $color-2;
+        text-align: center;
+        padding: 30px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .left-container{
+            padding: 40px;
+            img{
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                border: none;
+                border-radius: 12px;
+            }
+        }
+        .rigth-container{
+        }
+    }
+    .home-footer{
+        background: $color-1;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%);
+        text-align: center;
+        width: 90%;
+        border-radius: 60px 60px 0 0;
+        padding: 20px;
+        color: $color-2;
+        h3{
+            margin: 10px;
+        }
+    }
+}

@@ -1,3 +1,8 @@
+# About developper 
+
+RAMAROSON Namnbinintsoa Rovatiana 
+IGGLIA 3 ( INFO 3) à l'ISPM
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

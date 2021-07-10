@@ -16,10 +16,15 @@ $font-2: "font-2", serif;
 $font-3: "font-3", serif;
 
 
-$color-1: #003399;
-$color-2: #ED1C16;
-$color-3: #004883;
+$color-1: #0d1118;
+$color-2: #c1c7cc;
+$color-3: #ED1C16;
 $color-4: #E32934;
-$black: rgb(5, 5, 5);
-$white: rgb(220, 220, 255);
-$shadow: rgb(224, 230, 230);
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: $font-2;
+  text-decoration: none;
+  list-style: none;
+}
