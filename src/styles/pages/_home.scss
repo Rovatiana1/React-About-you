@@ -25,7 +25,11 @@
                 height: 400px;
                 object-fit: cover;
                 border-radius: 12px;
-                box-shadow: 0 0 10px $color-2;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 0 6px $color-1;
+                    cursor: pointer;
+                }
             }
         }
         .rigth-container{
@@ -44,13 +48,83 @@
                 .id-2{
                     font-size: 2rem;
                 }
+                .content{
+                    display: flex;
+                }
             }
             .rigth{
                 grid-area: r2;
-            }
-            .card-container{
-                grid-area: r3;
                 display: flex;
+                flex-direction: column;
+                grid-gap: 20px;
+            }
+            .button-container{
+                grid-area: r3;
+                padding-top: 75px;
+                .button{         
+                    display: flex;
+                    justify-content: space-around;           
+                    .title{
+                        border: 1px solid $color-4;
+                        color: $color-4;
+                        padding: 50px;
+                        border-radius: 10px;
+                        transition: 1s;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: $color-4;
+                            color: $color-2;
+                            transform: scale(1.05);
+                        }
+                    }
+                }
+            }
+            .modal-container{
+                z-index: 100;
+                width: 100%;
+                top: 0;
+                left: 0;
+                height: 100%;
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 3s;
+                backdrop-filter: blur(6px);
+
+                .modal{
+                    background: $color-1;
+                    width: 60%;
+                    height: 60%;
+                    padding: 20px;
+                    color: $color-2;
+                    border-radius: 20px;
+                    position: relative;
+                    h3{
+                        margin: 30px;
+                        font-size: 5rem;
+                    }
+                    .cross{
+                        position: absolute;
+                        top: 20px;
+                        right: 40px;
+                        color: $color-4;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                    .modal-content{
+                        margin: 40px;
+                        text-align: center;
+                        line-height: 30px;
+                        font-size: 1.1rem;
+                        p{
+                            span{
+                                color: $color-4;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
