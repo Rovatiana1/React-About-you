@@ -11,14 +11,19 @@ const Home = () => {
                     <img src='./img/rova.jpg' alt='rova' />
                 </div>
                 <div className='rigth-container'>
-                    <h2>RAMAROSON</h2>
-                    <h3>Nambinintsoa Rovatiana</h3>
-                    <p className='para'>Célibataire</p>
-                    <p className='para'>Malagasy</p>
-                    <p className='para'>22 ans</p>
-                    <p id='email'>E-mail : rovatiana1@gmail.com</p>
-                    <p id='contact'>contact: 032 91 365 27 | 034 08 971 32</p>
-                    <p id='adress'>Adresse : Lot VA 33 CE tsiadana</p>
+                    <div className='left'>
+                        <h2 className='id-1'>RAMAROSON</h2>
+                        <h3 className='id-2'>Nambinintsoa Rovatiana</h3>
+                        <h3 className='id-2'>IGGLIA 3</h3>                            
+                        <p className='para'>Célibataire</p>
+                        <p className='para'>Malagasy</p>
+                        <p className='para'>22 ans</p>
+                    </div>
+                    <div className='rigth'>
+                        <p>E-mail : rovatiana1@gmail.com</p>
+                        <p>contact: 032 91 365 27 | 034 08 971 32</p>
+                        <p>Adresse : Lot VA 33 CE tsiadana</p>
+                    </div>
                     <div className='card-container'>
                         <div className='card'>
                             <h3>Formation</h3>

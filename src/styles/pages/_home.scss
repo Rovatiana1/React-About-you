@@ -24,11 +24,34 @@
                 width: 400px;
                 height: 400px;
                 object-fit: cover;
-                border: none;
                 border-radius: 12px;
+                box-shadow: 0 0 10px $color-2;
             }
         }
         .rigth-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 40% 1fr;
+            grid-template-areas: 
+                "r1 r2"
+                "r3 r3";
+            .left{
+                grid-area: r1;
+                .id-1{
+                    font-size: 4rem;
+                    letter-spacing: 5px;
+                }
+                .id-2{
+                    font-size: 2rem;
+                }
+            }
+            .rigth{
+                grid-area: r2;
+            }
+            .card-container{
+                grid-area: r3;
+                display: flex;
+            }
         }
     }
     .home-footer{
