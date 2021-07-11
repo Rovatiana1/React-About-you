@@ -107,6 +107,8 @@ const Home = () => {
                                     <p><span>Malagasy : </span> maternelle</p>
                                     <p><span>Francais : </span> courrament</p>
                                     <p><span>Anglais : </span> grammatical</p>
+                                    <h4>Langages de Programmations</h4>
+                                    <p className='red'>Python, C, Php, Javascript</p>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +119,7 @@ const Home = () => {
                                 <h3>Divers</h3>
                                 <span className='cross' onClick={() => setDiverModal(false)}>&#10005;</span>                                
                                 <div className='modal-content'>
-                                    <p>Jeux video, football, musique, lecture</p>
+                                    <p className='red'>Jeux video, football, musique, lecture</p>
                                 </div>
                             </div>
                         </div>

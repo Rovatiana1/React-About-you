@@ -103,6 +103,7 @@
                     h3{
                         margin: 30px;
                         font-size: 5rem;
+                        letter-spacing: 4px;
                     }
                     .cross{
                         position: absolute;
@@ -116,12 +117,19 @@
                     .modal-content{
                         margin: 40px;
                         text-align: center;
-                        line-height: 30px;
+                        line-height: 40px;
                         font-size: 1.1rem;
                         p{
                             span{
                                 color: $color-4;
                             }
+                        }
+                        h4{
+                            font-size: 2rem;
+                            padding-top: 20px;
+                        }
+                        .red{
+                            color: $color-4
                         }
                     }
                 }
